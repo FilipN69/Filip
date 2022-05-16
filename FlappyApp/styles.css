@@ -1,0 +1,177 @@
+body {
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Header {
+    background-color: #2B2D33;
+    font-size: 30px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #00CCCC;
+    letter-spacing: 5px;
+    display: inline-block;
+    margin: 25px 25px;
+    word-spacing: -40px;
+}
+
+.Lorem {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+nav {
+    float: right;
+    color: #00CCCC;
+    word-spacing: 20px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.BorderLine {
+    border-bottom: 5px solid #00CCCC;
+}
+
+.Nav span {
+    color: white;
+    border-bottom: 5px solid white;
+    padding-bottom: 1px;
+}
+
+.Scenery {
+    margin-top: 3%;
+    margin-left: 5%;
+    border: 5px solid black;
+    width: 733px;
+    height: 265px;
+}
+
+footer {
+    background-color: #2B2D33;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 28%;
+    position: fixed;
+}
+
+.Line {
+    background-color: #00CCCC;
+    margin-left: 0%;
+    margin-right: 2%;
+    height: auto;
+    text-align: center;
+    position: sticky;
+    margin-top: 4%;
+}
+
+.List1 {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    color: #00CCCC;
+    border-left: 3px solid #00CCCC;
+    height: 150px;
+}
+
+.List2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #00CCCC;
+    border-left: 3px solid #00CCCC;
+    height: 170px;
+    float: right;
+    margin-top: -9%;
+    margin-right: 25%;
+}
+
+.List3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #00CCCC;
+    border-left: 3px solid #00CCCC;
+    height: 170px;
+    float: right;
+    margin-top: -9%;
+    margin-right: 57%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+    float: right;
+    border: 1px solid black;
+    margin-top: -15%;
+    margin-right: 10%;
+    font-size: 20px;
+    table-layout: fixed;
+    font-weight: bold;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 5px;
+    background-color: #00CCCC;
+    border: 1px solid black;
+    height: 50px;
+}
+
+th {
+    background-color: #2B2D33;
+    color: #00CCCC;
+}
+
+span {
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .Header {
+        font-size: 10px;
+    }
+    .Scenery {
+        margin-left: 0%;
+        margin-top: 0%;
+        max-width: 100%
+    }
+    nav {
+        font-size: 12px;
+    }
+    .List2 {
+        margin-top: -25%;
+        margin-right: 5%;
+    }
+    .List3 {
+        margin-top: -25%;
+        margin-right: 35%;
+    }
+    table {
+        width: 743px;
+        align-items: center;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+    .Lorem {
+        margin-top: 45%;
+    }
+}
